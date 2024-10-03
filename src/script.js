@@ -1,5 +1,7 @@
-let nome = "Fulano"
-let xp = 10001
+let nome = "Pikachu";
+document.getElementById("pokemon-name").innerHTML = nome;
+let xp = 1001
+document.getElementById("xp").innerHTML = xp;
 
 if (xp <= 1000){
     xp = "Ferro"
@@ -18,4 +20,8 @@ if (xp <= 1000){
 }else
     xp = "Radiante"
 
+document.getElementById("nivel").innerHTML = "" + xp;
+
 console.log("O Herói de nome " + nome + " está no nível de " + xp)
+
+document.getElementById("mensagem").innerHTML = "O Herói de nome " + nome + " está no nível de " + xp;
